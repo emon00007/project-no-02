@@ -4,6 +4,9 @@
     font-family: 'Open Sans', 'Mulish', sans-serif;
 }
 
+.hide {
+    display: none;
+}
 
 body {
     max-width: 1440px;
@@ -11,15 +14,15 @@ body {
 
 }
 
-.btn-primary{
+.btn-primary {
     width: 174px;
-height: 50px;
-border-radius: 8px;
-background: #FF5400;
-color: #FFF;
-font-size: 1rem;
-font-weight: 700;
-border:0px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0px;
 }
 
 /* headwer section */
@@ -30,6 +33,10 @@ border:0px;
     display: flex;
 
 
+}
+
+nav img {
+    display: none;
 }
 
 .nav-title {
@@ -70,7 +77,9 @@ ul a {
 .header-section-2 {
     background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     width: 1170px;
+
     height: 500px;
+
     margin: auto;
     margin-top: 30px;
     border-radius: 16px;
@@ -97,7 +106,7 @@ ul a {
 }
 
 .header-section-2-from {
-    
+
     display: inline-flex;
     padding: 16px;
     align-items: flex-start;
@@ -107,39 +116,42 @@ ul a {
 
 }
 
-.header-input{
+.header-input {
     width: 174px;
-height: 50px;
-border-radius: 8px;
-border: 0px;
-padding-left: 20px;
+    height: 50px;
+    border-radius: 8px;
+    border: 0px;
+    padding-left: 20px;
 }
 
 /* Popular section */
 
-.Popular-section{
+.Popular-section {
     margin-top: 4rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 25px;
 }
-.Popular-section-titel{color: #131318;
-font-size: 2.5rem;
-font-weight: 800;
-;}
 
-.Popular-section-p{
-  color: #424247;
-font-size:1rem;
-font-weight: 400;
-line-height: 26px;
-width: 577px;
-gap: 1.2rem;
+.Popular-section-titel {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    ;
+}
+
+.Popular-section-p {
+    color: #424247;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 577px;
+    gap: 1.2rem;
 
 }
 
-.Popular-section-img-1{
+.Popular-section-img-1 {
     width: 540px;
     height: 570px;
 }
@@ -147,18 +159,262 @@ gap: 1.2rem;
 /* Popular section close */
 
 /* Choose Your Destination */
-.photo-gallary{
-    padding-top: 50px;
-    width: 90%;
-    height: 300px;
+.destination {
     margin: auto;
-    /* align-items: center; */
-    display: grid;
-    /* grid-template-columns: 2.1fr; */
-    grid-gap: 10px;
-    justify-content: center;
-   margin-right: 50px;
+}
 
-   
-    /* column-gap: 20px; */
+.destination-title {
+    color: #131318;
+    text-align: center;
+    font-family: "Mulish";
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-p {
+    width: 643px;
+    margin: auto;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+
+.photo-gallary {
+    display: grid;
+    margin-top: 50px;
+    grid-gap: 12px;
+
+}
+
+.row-1 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+.row-2 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.row-3 {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+/* <!-- Why Choose Us --> */
+
+.choose-us {
+    text-align: center;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.choose-us-section-1-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.choose-us-section-1-p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.choose-us-hotel-map {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.choose-us-hotel {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: left;
+
+
+}
+
+.choose-us-hotel-title {
+    color: #131318;
+
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+
+
+.choose-us-hotel-p {
+    color: #5A5A5D;
+    width: 486px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.choose-us-hotel-img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.choose-us-map {
+    width: 573px;
+    height: 284px;
+    border-radius: 1rem;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    text-align: left;
+
+}
+
+.choose-us-map-img {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.choose-us-map-title {
+    color: #131318;
+
+    text-align: left;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0px 20px;
+}
+
+
+.choose-us-map-p {
+    color: #5A5A5D;
+    width: 486px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0px 20px;
+    text-align: left;
+}
+
+.choose-us-price {
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    text-align: left;
+    background: rgba(233, 68, 68, 0.05);
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+/* Why Choose Us end */
+@media screen and (max-width:576px) {
+    ul a {
+        display: none;
+
+    }
+
+    nav img {
+        display: flex;
+    }
+
+    .header-section-2 {
+        height: 490px;
+        width: 475px;
+        background-repeat: no-repeat;
+        margin: auto;
+        text-align: center;
+        /* flex-direction: column; */
+    }
+
+    .header-section-2-title {
+        font-size: 100%;
+        flex-direction: column;
+    }
+
+
+    .header-section-2-from,
+    .Popular-section,
+    .row-1,
+    .row-2,
+    .row-3 {
+        flex-direction: column;
+
+    }
+
+    .header-section-2-p {
+        width: 100%;
+        text-align: center;
+    }
+
+    .row-1{
+        width: 90%;
+        margin: 0px 20px;
+    }
+    .row-3 img {
+        width: 95%;
+        margin: 0px 20px;
+    }
+
+    .row-2 img {
+        width: 95%;
+        margin: 0px 20px;
+    }
+
+    .destination-title{
+        margin: auto;
+        margin: 0px 50px;
+        margin-right: -20px;
+        
+    }
+
+
+    .destination-p {
+        text-align: center;
+        width: 400px;
+        margin: auto;
+        margin: 0px 100px;
+    }
+
+    .Popular-section-titel{
+
+    }
+    .Popular-section-text{
+        /* text-align: left; */
+        margin: auto;
+        max-width: 556px;
+        margin-left: 20px;
+    }
+
+    .Popular-section-img-1{
+        margin: auto;
+        max-width: 556px;
+        margin-left: 200px;
+        text-align:right;
+    }
+
+    .choose-us {
+        margin: 0px 30px;
+        margin-bottom: 50px;
+    }
+.choose-us-hotel-map {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.choose-us-section-1 h3,p{
+    margin: auto;
+}
 }
