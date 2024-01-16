@@ -593,14 +593,6 @@ ul a {
 
 
 
-
-
-
-
-
-
-
-
 /* Why Choose Us end */
 @media (max-width:600px) {
     .header-top {
@@ -679,7 +671,6 @@ ul a {
         margin: 0px 100px;
     }
 
-    .Popular-section-titel {}
 
     .Popular-section-text {
         /* text-align: left; */
