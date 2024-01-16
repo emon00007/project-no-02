@@ -35,7 +35,7 @@ body {
 
 }
 
-nav img {
+nav .logo {
     display: none;
 }
 
@@ -318,15 +318,300 @@ ul a {
     margin-top: 20px;
 }
 
+/* Deals Discounts section*/
+.destination-text-container {
+
+    text-align: center;
+
+}
+
+.destination-text-titel {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.destination-text-p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.Deals-Discounts {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.discount-container {
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 16px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.discount-card-container {
+    position: absolute;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    gap: 25px;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 50%;
+
+}
+
+.discount-card {
+    display: flex;
+    padding: 5px;
+}
+
+.same {
+    color: #ff5400;
+    font-size: 1.25rem;
+    font-weight: 800
+}
+
+.discount-container-2 {
+    background-image: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    transform: rotateY(180deg);
+    width: 1170px;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 16px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.discount-card-2 {
+    display: flex;
+    gap: 10px;
+}
+
+.time {
+    color: #5a5a5d;
+    font-weight: 400;
+}
+
+.discount-card-container-2 {
+    position: absolute;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    gap: 25px;
+    top: 10%;
+    right: 10%;
+    bottom: 10%;
+    left: 50%;
+    transform: rotateY(180deg);
+}
+
+.btn-second {
+    width: 174px;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border: 0px;
+    margin: 30px;
+}
+
+.simple-perfect {
+    margin-top: 50px;
+    width: 1170px;
+    display: flex;
+    margin: auto;
+    row-gap: 20px;
+    /* text-align: center; */
+    gap: 10px;
+    margin-bottom: 50px;
+
+}
+
+.simple-perfact-text {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+.simple-perfact-p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.simple-perfect div li {
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Perfect-place img {
+    width: 30%;
+    position: absolute;
+}
+
+.Watch-Our-Bangladesh {
+    color: #FFF;
+    position: relative;
+    right: 30%;
+    left: 30%;
+    top: 40%;
+    bottom: 30%;
+
+}
+
+.Newsletter-section {
+    width: 80%;
+    margin: auto;
+
+}
+
+.Newsletter-container {
+    width: 100%;
+    display: flex;
+    /* justify-content: center; */
+    gap: 50px;
+}
+
+.contact-form {
+    width: 33%;
+    border-radius: 16px;
+    border: 1px solid #ff5400;
+    height: 320px;
+    padding: 50px;
+}
+
+.contact-title {
+    color: #131318;
+    font-size: 1.6rem;
+    font-weight: 800;
+}
+
+.news-input {
+    display: block;
+}
+
+.news-input input {
+    width: 95%;
+    height: 40px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    margin: 10px 0;
+    border: 0;
+    padding: 5px;
+}
+
+.last-btn {
+    width: 98%;
+    height: 45px;
+    border-radius: 8px;
+    background: #ff5400;
+    border: 0;
+    color: #fff;
+    padding: 5px;
+}
+
+.news-img img {
+    max-width: 622px;
+    width: 50%;
+    height: 422px;
+    position: absolute;
+    display: inline-block;
+}
+
+.save-your-money {
+    position: relative;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-20deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #fff;
+    padding: 5px;
+    top: 220px;
+    left: 220px;
+    text-align: center;
+}
+
+.news-img {
+    width: 100%;
+}
+
+/* footer section */
+
+.footer {
+    max-width: 1440px;
+    margin-top: 20px;
+    background: rgba(19, 19, 24, 0.05);
+  }
+  
+  .footer-container {
+    max-width: 80%;
+  }
+  
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-container {
+    margin: auto;
+    text-align: center;
+  }
+  
+  .icon-footer {
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .resarv p {
+    text-align: center;
+    padding-bottom: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
 
 /* Why Choose Us end */
-@media screen and (max-width:576px) {
+@media screen and (max-width:600px) {
+    .header-top {
+        margin: auto;
+    }
+
     ul a {
         display: none;
 
     }
 
-    nav img {
+    nav .logo {
         display: flex;
     }
 
@@ -349,20 +634,25 @@ ul a {
     .Popular-section,
     .row-1,
     .row-2,
-    .row-3 {
+    .row-3,
+    .simple-perfect,
+    .Newsletter-container  {
         flex-direction: column;
 
     }
+
+    
 
     .header-section-2-p {
         width: 100%;
         text-align: center;
     }
 
-    .row-1{
+    .row-1 {
         width: 90%;
         margin: 0px 20px;
     }
+
     .row-3 img {
         width: 95%;
         margin: 0px 20px;
@@ -373,11 +663,11 @@ ul a {
         margin: 0px 20px;
     }
 
-    .destination-title{
+    .destination-title {
         margin: auto;
         margin: 0px 50px;
         margin-right: -20px;
-        
+
     }
 
 
@@ -388,33 +678,61 @@ ul a {
         margin: 0px 100px;
     }
 
-    .Popular-section-titel{
+    .Popular-section-titel {}
 
-    }
-    .Popular-section-text{
+    .Popular-section-text {
         /* text-align: left; */
         margin: auto;
         max-width: 556px;
         margin-left: 20px;
     }
 
-    .Popular-section-img-1{
+    .Popular-section-img-1 {
         margin: auto;
         max-width: 556px;
         margin-left: 200px;
-        text-align:right;
+        text-align: right;
+    }
+
+    .contact-form{
+        width:500px ;
+        height: 500px;
     }
 
     .choose-us {
         margin: 0px 30px;
         margin-bottom: 50px;
     }
-.choose-us-hotel-map {
-    display: flex;
-    gap: 30px;
-    flex-direction: column;
-}
-.choose-us-section-1 h3,p{
-    margin: auto;
-}
+
+    .choose-us-hotel-map {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .choose-us-section-1 h3,
+    p {
+        margin: auto;
+    }
+
+    .discount-container, .discount-container-2{
+        width: 600px;
+    
+    }
+
+    .simple-perfact-text{
+        width: 600px;
+        
+    }
+    .Perfect-place{
+        width: 500px;
+    }
+    .news-img img {
+        position:absolute;
+        width: 125%;
+      }
+
+      .save-your-money{
+        position: relative;
+      }
 }
