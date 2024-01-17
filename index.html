@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tour & Travels</title>
+    <title>Tours & Travels</title>
     <script src="https://kit.fontawesome.com/2badeb8df0.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style/travel.css">
@@ -12,60 +12,88 @@
 
 <body>
     <!-- header section -->
-    <header>
-        <div class="header-top">
-
-            <nav class="nav-title">
+    <header class="header-section">
+        <nav>
+            <div class="nav-container">
                 <div class="nav-logo-section">
                     <img src="Images/Group 40071 (2).png" alt="">
-                    <h2 class="nav-headin-title">Tour & <span class="heading-title-span">Travels</span></h2>
+                    <h1 class="nav-title">
+                        Tours & <span style="color: #ff5400">Travel</span>
+                    </h1>
                 </div>
-                <ul>
-                    <a id="Home" href="">Home</a>
-                    <a href="">Packages</a>
-                    <a href="">Testimonial</a>
-                    <a href="">Blog</a>
-                    <a href="">Contact</a>
-                </ul>
-                <img class="logo" src="Images/Frame.svg" alt="">
-            </nav>
+                <div class="nav-contant">
+                    <div class="nav-contant-list">
+                        <a style="color: #ff5400" href="">Home</a>
+                        <a href="">Packages</a>
+                        <a href="">Testimonial</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact</a>
+                        <div>
+                            
+                            <!-- <label for="toggle-menu" class="menu-bar">&#9776;</label> -->
+                        </div>
+                    </div>
+                    <img class="logo" src="Images/Frame.svg" alt="">
+              </nav>
         </div>
-        <div class="header-section-2">
-            <div class="header-section-2-text">
-                <h1 class="header-section-2-title">Explore Your Travel</h1>
-                <p class="header-section-2-p">Embark on a journey of self-discovery through travel. Explore diverse
-                    cultures, savor unique cuisines, and embrace new perspectives. Uncover the transformative power of
-                    wanderlust in shaping personal growth and understanding.
+        <section class="banner-section">
+            <div class="banner-container">
+              <div class="banner-text-container">
+                <h1 class="banner-title">Explore Your Travel</h1>
+                <p class="common-text">
+                    Embark on a journey of self-discovery through travel. Explore diverse cultures, savor unique cuisines, and embrace new perspectives. Uncover the transformative power of wanderlust in shaping personal growth and understanding
                 </p>
+              </div>
             </div>
-            <div class="header-section-2-from">
-                <input class="header-input" type="text" placeholder="Whare go">
-                <input class="header-input" type="text" placeholder="when">
-                <input class="header-input" type="text" placeholder="Select type">
-                <button class="btn-primary"><i class="fa-solid fa-magnifying-glass"></i> Find Now</button>
+            <div class="banner-input-section">
+              <div class="banner-input-container">
+                <div class="banner-input-box">
+                  <input type="text" placeholder="Where go" />
+                </div>
+                <div class="banner-input-box">
+                  <select class="dropdoun-menu">
+                    <option value="">When</option>
+                    <option value="">Why</option>
+                  </select>
+                </div>
+                <div class="banner-input-box">
+                  <select class="dropdoun-menu">
+                    <option value="Select Type">Select Type</option>
+                    <option value="bissiness">Bussiness</option>
+                    <option value="Picnic">Picnic</option>
+                  </select>
+                </div>
+                <div class="banner-input-box">
+                  <button class="btn-primary">
+                     Find Now
+                  </button>
+                </div>
+              </div>
             </div>
+          </section>
+      
 
-        </div>
-
-        <!--Popular section-->
+        
+         <!-- main-section start -->
+      <main class="main-section">
+        <!--Popular section--> 
         <section class="Popular-section">
+          <div class="popular-container">
             <div class="Popular-section-text ">
                 <h1 class="Popular-section-titel">Our Popular Tours</h1>
                 <p class="Popular-section-p">The Kangchenjunga landscape is a complex of three distinct ecoregions: the
                     eastern Himalayan
                     broad-leaved and coniferous forests, the Eastern Himalayan alpine shrub and meadows and the
                     Terai-Duar savanna and grasslands </p>
-                <ul class="Popular-section-p">
+                
                     <li>Nepal: Kanchenjunga Conservation Area</li>
-                    <br>
                     <li>Sikkim, India: Khangchendzonga National Park, Varsey Rhododendron Sanctuary, Fambong Lho
                         Wildlife Sanctuary, Kyongnosla Alpine Sanctuary, Maenam Wildlife Sanctuary, Shingba Rhododendron
                         Sanctuary and Pangolakha Wildlife Sanctuary</li>
-                    <br>
                     <li>
                         Kanchenjunga is one of the most popular tourist attractions. Kanchenjunga is the main attraction
                         of Darjeeling, Ghum or Kalimpong, one of the rock cities of India</li>
-                </ul>
+                
                 <p class="Popular-section-p"> At this time of Hemant, if the sky is clear without clouds, Kanchenjunga
                     can be seen from different parts of Bangladesh.
 
@@ -76,48 +104,54 @@
                 <img class="Popular-section-img-1" src="Images/Rectangle 4.png" alt="">
 
             </div>
+           </div>
         </section>
         <!-- Popular section close -->
 
         <!-- Choose Your Destination  section-->
 
-        <section class="destination ">
+     <section class="destination ">
+         <div class="destination-text-container">
             <h2 class="destination-title">Choose Your Destination</h2>
             <p class="destination-p">Nature is an inherent character or constitution, sea of the forest or the mounta as
                 a whole. In this general sense nature refers to the laws, Now choose your destination</p>
-        </section>
-
-        <section class="photo-gallary ">
-            <div class="row-1">
-                <div>
+            </div>
+            <div class="destination-image-container">
+              <div class="row-1">
+                <div class="destination-image-container-1">
                     <img src="Images/Rectangle 5.png" alt="">
-
+                    <div class="location">Maldivs</div>
                 </div>
-
-
-                <div>
+                <div class="destination-image-container-2">
                     <img src="Images/Rectangle 8.png" alt="">
+                    <div class="location">Indonesia</div>
                 </div>
 
             </div>
-            <div class="row-2 ">
-                <div>
+            <div class="row-2">
+                <div class="destination-image-container-3">
                     <img src="Images/Rectangle 6.png" alt="">
+                    <div class="location">Srilanka</div>
                 </div>
-                <div>
+                <div class="destination-image-container-4">
                     <img src="Images/Rectangle 7.png" alt="">
+                    <div class="location">North America</div>
                 </div>
-                <div>
+                <div class="destination-image-container-5">
                     <img src="Images/Rectangle 9.png" alt="">
+                    <div class="location">Kashmir</div>
                 </div>
+            </div>
 
             </div>
-            <div class="row-3 ">
-                <div>
+            <div class=" row-3">
+                <div class="destination-image-container-6">
                     <img src="Images/Rectangle 11.png" alt="">
+                    <div class="location">Bandarban</div>
                 </div>
-                <div>
+                <div class="destination-image-container-7">
                     <img src="Images/Rectangle 10.png" alt="">
+                    <div class="location">Bangladesh</div>
                 </div>
             </div>
         </section>
@@ -153,64 +187,63 @@
             </div>
         </section>
     </header>
-    <main>
-    <section class="Deals-Discounts">
-         <div class="destination-text-container">
-            <h3 class="destination-text-titel">Deals & Discounts</h3>
-            <p class="destination-text-p">Hai look discoundt Here
-              join now & enjiy tour tour
-             </p>
-
-         </div>
-        <div class="discount-container">
-             <div class="discount-card-container">
-                <div class="discount-card">
-                     <div class="clock">
-                         <img src="Images/Frame4.svg" alt="">
-                        7 Day: 6 Night
-                    </div>
-                    <div class="clock">
-                        <img src="Images/Frame (1).svg" alt="">Max:10
-                    </div>
-                     <div class="clock">
-                    <img src="Images/Frame (2).svg" alt="">Malaysia
-                </div>
-
-             </div>
-                <div class="discount">
-                     <h3 class="discount-card-title">Tour To Satorin</h3>
-                    <p class="discount-card-p">1 feburuary to 25 February Valenties day spachal discount for you
-                     .Why are you late join first</p>
-                    <p class="same">Price: $1300-$1500</p>
-                    <button class="btn-primary">Book Now</button>
-
-                </div>
+        <section class="Deals-Discounts">
+            <div class="destination-text-container">
+                <h3 class="destination-text-titel">Deals & Discounts</h3>
+                <p class="destination-text-p">Hai look discoundt Here
+                    join now & enjiy tour tour
+                </p>
 
             </div>
-        </div>
-        <div class="discount-container-2">
-        <div class="discount-card-container-2">
-                <div class="discount-card-2">
-                    <div class="clock">
-                        <img src="Images/Frame4.svg" alt="">
-                        7 Day: 6 Night
-                    </div>
-                    <div class="clock">
-                        <img src="Images/Frame (1).svg" alt="">Max:10
-                    </div>
-                    <div class="clock">
-                        <img src="Images/Frame (2).svg" alt="">Malaysia
-                    </div>
+            <div class="discount-container">
+                <div class="discount-card-container">
+                    <div class="discount-card">
+                        <div class="clock">
+                            <img src="Images/Frame4.svg" alt="">
+                            7 Day: 6 Night
+                        </div>
+                        <div class="clock">
+                            <img src="Images/Frame (1).svg" alt="">Max:10
+                        </div>
+                        <div class="clock">
+                            <img src="Images/Frame (2).svg" alt="">Malaysia
+                        </div>
 
-                 </div>
-                <div class="discount">
-                    <h3 class="discount-card-title">Tour To Satorin</h3>
-                     <p class="discount-card-p">1 feburuary to 25 February Valenties day spachal discount for you
-                        .Why are you late join first</p>
-                    <p class="same">Price: $1300-$1500</p>
-                    <button class="btn-primary">Book Now</button>
+                    </div>
+                    <div class="discount">
+                        <h3 class="discount-card-title">Tour To Satorin</h3>
+                        <p class="discount-card-p">1 feburuary to 25 February Valenties day spachal discount for you
+                            .Why are you late join first</p>
+                        <p class="same">Price: $1300-$1500</p>
+                        <button class="btn-primary">Book Now</button>
+
+                    </div>
 
                 </div>
+            </div>
+            <div class="discount-container-2">
+                <div class="discount-card-container-2">
+                    <div class="discount-card-2">
+                        <div class="clock">
+                            <img src="Images/Frame4.svg" alt="">
+                            7 Day: 6 Night
+                        </div>
+                        <div class="clock">
+                            <img src="Images/Frame (1).svg" alt="">Max:10
+                        </div>
+                        <div class="clock">
+                            <img src="Images/Frame (2).svg" alt="">Malaysia
+                        </div>
+
+                    </div>
+                    <div class="discount">
+                        <h3 class="discount-card-title">Tour To Satorin</h3>
+                        <p class="discount-card-p">1 feburuary to 25 February Valenties day spachal discount for you
+                            .Why are you late join first</p>
+                        <p class="same">Price: $1300-$1500</p>
+                        <button class="btn-primary">Book Now</button>
+
+                    </div>
 
                 </div>
 
@@ -250,8 +283,9 @@
             <div class="simple-perfect">
                 <div>
                     <h3 class="simple-perfact-text">A Simple Perfect Place To Get Lost</h3>
-                    <p class="simple-perfact-p">We provid some special service. Travel service is very special for us. some kind of</p>
-                    
+                    <p class="simple-perfact-p">We provid some special service. Travel service is very special for us.
+                        some kind of</p>
+
                     <li>We provid micro bus</li>
                     <br>
                     <li>We provide ship </li>
@@ -263,67 +297,67 @@
                     <!-- <span class="Watch-Our-Bangladesh">Watch Our Mountain in Bangladesh</span> -->
                 </div>
             </div>
-            
+
         </section>
-<!-- Newsletter -->
-<section class="Newsletter-section"> 
-    <div class="Newsletter-container">
-        <div class="contact-form">
-            <h3 class="contact-title ">Newsletter</h3>
-            <p class="newsshalter-contant">Subscribe now . Why are you late</p>
-            <div class="news-input">
-            <input type="text" placeholder="Enter your name">
-            <input type="text" placeholder="Enter your email">
-            <button class="last-btn">SUBSCRIBE</button>
+        <!-- Newsletter -->
+        <section class="Newsletter-section">
+            <div class="Newsletter-container">
+                <div class="contact-form">
+                    <h3 class="contact-title ">Newsletter</h3>
+                    <p class="newsshalter-contant">Subscribe now . Why are you late</p>
+                    <div class="news-input">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="text" placeholder="Enter your email">
+                        <button class="last-btn">SUBSCRIBE</button>
+                    </div>
+                </div>
+                <div class="newsshalter-img-container">
+                    <div class="news-img">
+                        <img src="Images/Rectangle 8 (1).png" alt="">
+                    </div>
+                    <div class="save-your-money">
+                        <p>tour&ravel.com</p>
+                        <h3>Save up to 70%</h3>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="newsshalter-img-container">
-            <div class="news-img">
-                <img src="Images/Rectangle 8 (1).png" alt="">
-            </div>
-            <div class="save-your-money">
-                <p>tour&ravel.com</p>
-                <h3>Save up to 70%</h3>
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
     </main>
     <!-- footer section -->
     <footer>
         <section class="footer">
             <div class="footer-container">
-              <div class="logo">
-                <img src="./Images/Group 40071 (2).png" alt="" />
-                <h1 class="logo-text">
-                  Tour & <span style="color: #ff5400">Travel</span>
-                </h1>
-              </div>
-              <p class="footer-contant">
-                Thanks for joining Stay us and send feedbak.Share you friend exprience with us.
-        
-              </p>
-              <div class="icon-footer">
-                <div class="icon">
-                    <i class="fa-brands fa-twitter"></i>
+                <div class="logo">
+                    <img src="./Images/Group 40071 (2).png" alt="" />
+                    <h1 class="logo-text">
+                        Tour & <span style="color: #ff5400">Travel</span>
+                    </h1>
                 </div>
-                <div class="icon">
-                    <i class="fa-brands fa-facebook"></i>
+                <p class="footer-contant">
+                    Thanks for joining Stay us and send feedbak.Share you friend exprience with us.
+
+                </p>
+                <div class="icon-footer">
+                    <div class="icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
                 </div>
-                <div class="icon">
-                    <i class="fa-brands fa-instagram"></i>
-                </div>
-                <div class="icon">
-                    <i class="fa-brands fa-github"></i>
-                </div>
-              </div>
             </div>
             <hr style="width: 90%;">
             <div class="resarv">
-              <p>2017, All Rights Reserved.</p>
+                <p>2017, All Rights Reserved.</p>
             </div>
-          </section>
+        </section>
 
     </footer>
 
